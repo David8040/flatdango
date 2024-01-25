@@ -13,12 +13,12 @@ header {
 h1{
     margin: 10px;
     margin-left: 40px;
-    width: 200px;
+    width: 210px;
     border: solid;
     border-radius: 5px;
     text-align: center;
     padding: 6px;
-    font-size: 40px;
+    font-size: 30px;
   }
 
 .message-container {
@@ -46,7 +46,7 @@ p{
     padding: 20px;
     margin-left: 20px;
     margin-top: 0px;
-    width: 400px;
+    width: 350px;
     border-radius: 20px;
 }
 
@@ -112,7 +112,7 @@ button {
 }
 
 button:hover {
-  background-color: black;
+  background-color: blueviolet;
   color: rgb(247, 245, 245);
   border: none;
   padding: 8px; 
@@ -124,12 +124,12 @@ button:active{
 }
   
 .movie-details {
-    background-color: rgb(247, 245, 245);
+    background-color: rgb(267, 275, 295);
     display: flex;
     justify-content: center;
     margin-top: 0px;
     margin-left: 40px;
-    margin-right: 20px;
+    margin-right: 10px;
     padding-top: 20px;
     flex: 1;
     border-radius: 20px;
@@ -148,14 +148,14 @@ button:active{
 #movie-description {
   display: block;
   margin-top: 10px;
-  font-size: 16px;
+  font-size: 19px;
   color: #555;
   max-width: 450px;
 }
 
   
 img {
-    max-height: 270px;
+    max-height: 290px;
     width: auto;
     border-radius: 20px;
   }
