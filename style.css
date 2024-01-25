@@ -1,0 +1,162 @@
+body {
+    font-family: 'Satisfy', cursive;
+    margin: 0;
+    padding: 0;
+  }
+  
+header {
+    display: flex;
+    align-items: center;
+    height: 110px;
+  } 
+
+h1{
+    margin: 10px;
+    margin-left: 40px;
+    width: 200px;
+    border: solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 6px;
+    font-size: 40px;
+  }
+
+.message-container {
+  display: flex; 
+  justify-content:center; 
+  flex: 1;
+}
+
+h2{
+  margin: 0;
+  padding-left: 5px;
+}
+p{
+    text-align: center;
+    font-size: 40px;
+    margin: 5px;
+  }
+#content{
+  display: flex;
+  align-items: top;
+  margin-bottom: 50px;
+}
+#movie-list{
+    background-color: rgb(247, 245, 245);
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 0px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+li{
+  position: relative;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 5px;
+}
+li:hover {
+  background-color: #ddd; 
+  color: #333; 
+  border-radius: 8px; 
+}
+
+li:active {
+  background-color: #bbb; 
+  color: #444; 
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3); 
+}
+
+.sold-out {
+  background-color: #ccc; 
+  color: #555; 
+  cursor: not-allowed; 
+  pointer-events: none; 
+  opacity: 0.6; 
+  position: relative;
+}
+.sold-out .delete-button{
+  cursor: pointer;
+  pointer-events: all;
+}
+
+
+
+.buy-ticket-button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 5px;
+  padding: 6px; 
+  border: 2px solid; 
+}
+
+.delete-button{
+  position: absolute;
+  right: 0;
+  padding: 1px;
+  border: 1.5px solid; 
+}
+
+.delete-button:hover{
+  padding: 2px;
+}
+button {
+  border-radius: 4px;
+  background-color: rgb(247, 245, 245);
+  color: black;
+  font-weight: 500;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: rgb(247, 245, 245);
+  border: none;
+  padding: 8px; 
+}
+
+
+button:active{
+    opacity: 0.4;
+}
+  
+.movie-details {
+    background-color: rgb(247, 245, 245);
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 20px;
+    padding-top: 20px;
+    flex: 1;
+    border-radius: 20px;
+  }
+
+.inner-details{
+  position: relative;
+
+}
+
+.inner-details p{
+  text-align: left;
+  font-size: 20px;
+}
+
+#movie-description {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+  max-width: 450px;
+}
+
+  
+img {
+    max-height: 270px;
+    width: auto;
+    border-radius: 20px;
+  }
+
